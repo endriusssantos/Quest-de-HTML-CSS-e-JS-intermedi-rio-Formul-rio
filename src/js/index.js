@@ -1,14 +1,17 @@
-const campo = document.querySelectorAll("input");
-const obrigatorio = document.querySelectorAll("obrigatorio")
+const campos = document.querySelectorAll(".campo")
+const botao = document.querySelector(".botao")
 
-campo.forEach(input => {
-    input.addEventListener('change', () => {
-        if (input.value !== "") {
+botao.addEventListener("click", (e) => {
+    e.preventDefault()
+
+    campos.forEach((input) => {
+        if (input.value) {
             input.classList.add("campo-preenchido")
+            input.nextElementSibling.classList.remove("mostrar")
         } else {
+            input.classList.remove("campo-preenchido")
             input.classList.add("campo-nao-preenchido")
-            obrigatorio.classList.remove("obrigatorio")
-            obrigatorio.classList.add("mostrar")
+            input.nextElementSibling.classList.add("mostrar")
         }
-    });
-});
+    })
+})

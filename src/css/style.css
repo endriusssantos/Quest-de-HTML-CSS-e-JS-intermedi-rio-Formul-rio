@@ -41,32 +41,19 @@ main {
     padding: 40px 20px;
 }
 
-input {
+.campo {
     margin-top: 15px;
+    border: 2px solid #000;
     border-radius: 5px;
     font-size: 15px;
     font-weight: 700;
-}
-
-.nome {
     height: 30px;
     padding-left: 9px;
 }
 
-.email {
-    height: 30px;
-    padding-left: 9px;
-}
-
-.telefone {
-    height: 30px;
-    padding-left: 9px;
-}
-
-.mensagem {
-    padding-left: 9px;
-    padding-bottom: 100px;
-    padding-top: 8px;
+textarea {
+    padding-bottom: 50px;
+    padding-top: 5px;
 }
 
 .obrigatorio {
