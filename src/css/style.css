@@ -8,14 +8,13 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 100px;
 }
 
 .direita {
     display: flex;
     flex-direction: column;
-    margin-right: 600px;
-    margin-top: 350px;
-    margin-bottom: 90px;
+    margin-top: 200px;
 }
 
 .titulo-principal {
@@ -35,7 +34,6 @@ main {
     display: flex;
     flex-direction: column;
     width: 340px;
-    height: 400px;
     background-color: #FFF;
     margin-top: 250px;
     padding: 40px 20px;

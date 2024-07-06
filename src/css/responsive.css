@@ -1,0 +1,63 @@
+@media (max-width: 728px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .direita {
+        margin-top: 150px;
+    }
+
+    .esquerda {
+        margin-top: 0px;
+        width: 250px;
+        padding: 20px 80px 20px 20px;
+    }
+
+    .campo {
+        height: 30px;
+        width: 300px;
+    }
+
+    .botao {
+        padding: 15px 0px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 425px){
+    body {
+        height: 100%;
+        background-size: contain;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .direita {
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+
+    .esquerda {
+        margin-top: 0px;
+        width: 250px;
+        padding: 20px 20px;
+    }
+
+    .campo {
+    margin-top: 15px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    height: 30px;
+    padding-left: 9px;
+}
+
+    .botao {
+        padding: 15px 0px;
+    }
+}
